@@ -17,8 +17,8 @@
         function config($stateProvider) {
             $stateProvider
                 .state('module2', {
-                    url: '/copia/module2',
-                    templateUrl: '/copia/module2/module2.html',
+                    url: '/angular-lazy-module/module2',
+                    templateUrl: '/angular-lazy-module/module2/module2.html',
                     controller: 'module2Controller',
                     controllerAs: 'ctrl',
                     resolve: {
@@ -26,8 +26,8 @@
 
                             return $ocLazyLoad.load({
                                 files: [
-                                    '/copia/module2/module.controller.js',
-                                    '/copia/module2/directive2.js'
+                                    '/angular-lazy-module/module2/module.controller.js',
+                                    '/angular-lazy-module/module2/directive2.js'
                                 ]
                             });
                         }]

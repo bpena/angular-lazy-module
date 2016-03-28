@@ -4,8 +4,8 @@ var gulp        = require('gulp'),
     replace     = require('gulp-replace');
 
 var _path       = {
-    base: '/copia/module2/',
-    baseDist: '/copia/dist/',
+    base: '/angular-lazy-module/module2/',
+    baseDist: '/angular-lazy-module/dist/',
     fontsJs: 'module2/**/*.js',
     htmlFonts: 'module2/**/*.html',
     exportFolder: 'dist/'

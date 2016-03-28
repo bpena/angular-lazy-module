@@ -1,4 +1,4 @@
-#Readme para angular-lazy-load
+#Readme para angular-lazy-module
 
 ## Antes de empezar
 ### node y npm
@@ -28,7 +28,7 @@ encuentre instalada, vamos a utilizar npm para instalarla.
 
 De esta manera instalamos gulp de forma global para poder utilizarlo en cualquier momento.
 
-### angular-lazy-load
+### angular-lazy-module
 Ya que verificamos que tengamos instalado npm y gulp, vamos a utilizar npm para instalar los plugins necesarios para la
 compilación de este módulo. Abrimos una consola de comandos y nos dirigimos a la raiz de la carpeta del proyecto, desde
 ahí ejecutaremos todos los comandos.
